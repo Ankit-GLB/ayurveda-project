@@ -1,0 +1,59 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font: Arial, Helvetica, sans-serif;
+}
+h1{
+    font: 1.5em;
+    text-align: center;
+    color: #326432;
+    text-transform: capitalize;
+}
+form{
+    margin: 0 auto;
+    width: 70%;
+    padding: 1em;
+    border: 10px solid red;
+    border: 1em;
+}
+
+fieldset{
+    border: 1px solid lightgray;
+    margin: 10px;
+}
+
+legend{
+    font-weight: 700;
+}
+
+div + div{
+    margin-top: 1em;
+}
+
+input, textarea{
+    width: 200px;
+    border: 1px solid #999;
+    
+}
+
+textarea{
+    vertical-align: top;
+    height: 12em;
+    resize: vertical;
+}
+
+button{
+    margin: .5em;
+    font-size: 1em;
+    text-transform: capitalize;
+    background-color: #326432;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+#submitbutton{
+    display: flex;
+    justify-content: center;
+}
